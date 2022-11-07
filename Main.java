@@ -79,13 +79,13 @@ public class Main {
     System.out.println();
     System.out.println();
 
-    String playcount = InputReader.getString("Do you want to List the songs by Number Streams? ");
+    String playcount = InputReader.getString("Do you want to List the songs by the Number Streams? ");
     playcount.toLowerCase();
     System.out.println();
     System.out.println();
     if (playcount.equals("yes"))
     {
-        System.out.print("Here are the songs listed by number of Streams");
+        System.out.print("Here are the songs listed by the number of Streams");
         System.out.println();
         System.out.println();
         xxx.print();
@@ -146,8 +146,9 @@ public class Main {
             it.print();
 
         }
+        System.out.println();
+        System.out.println("The song number " + c1 + " has been removed");
     }
-    
     
     System.out.println();
     System.out.println();
@@ -171,16 +172,25 @@ public class Main {
             }
         }
     }
-
-    }
     System.out.println();
+System.out.println();
+String end = InputReader.getString("Have you Finished using Music Database 1.0 ");
     System.out.println();
-
-
-
-   
-    }
-    
-    
+    end.toLowerCase();
+if (end.equalsIgnoreCase("yes"))
+{
+    System.out.println("Thank you for using Music Database 1.0...Bye!");
 }
+
+
+
+}
+
+
+}
+
+}
+ 
+    
+
 
